@@ -1,3 +1,12 @@
+1. 运行 JFinal.main() 来调试 JFinal，查看其运行加载流程
+
+2. 
+
+参考资料：
+
+	http://download.jfinal.com/upload/2.2/jfinal-2.2-manual.pdf
+
+
 (为阅读源码方便，摘自网络文档于此)
 
 - JFinalFilter 框架入口，也是接管所有请求的地方
