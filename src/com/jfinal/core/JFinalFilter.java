@@ -42,7 +42,8 @@ public final class JFinalFilter implements Filter {
 	private static final JFinal jfinal = JFinal.me();
 	private static Log log;
 	private int contextPathLength;
-	
+
+	// scan: 初始化 JFinalFilter
 	public void init(FilterConfig filterConfig) throws ServletException {
 		createJFinalConfig(filterConfig.getInitParameter("configClass"));
 		
